@@ -1152,3 +1152,28 @@ footer .inner-content p a {
 .paymentForm label{
 	display: block;
 }
+
+.footer-social{
+	position: relative;
+  }
+   .footer-social li{
+	display: inline-block;
+	margin: 6px;
+  }
+.footer-social li a{
+	position: relative;
+	display: inline-block;
+	font-size: 13px;
+	width: 41px;
+	height: 41px;
+	line-height: 41px;
+	text-align: center;
+	background: #dedede;
+	color: #777777;
+	border-radius: 50%;
+	transition: all 500ms ease;
+  }
+  .footer-social li a:hover{
+	background-color: #f33f3f;
+	color: #ffffff;
+  }
