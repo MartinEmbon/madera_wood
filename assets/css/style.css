@@ -997,10 +997,7 @@ footer .inner-content p a {
 	margin-bottom: 45px;
 }
 
-.img-fluid{
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-}
+
 /* Responsive Style */
 @media (max-width: 768px) {
 	.banner .text-content {
@@ -1063,6 +1060,9 @@ footer .inner-content p a {
 	.send-message .accordion {
 		margin-top: 30px;
 		margin-left: 0px;
+	}
+	.img-fluid{
+		padding-top: 12px;
 	}
 }
 
