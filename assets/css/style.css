@@ -301,7 +301,8 @@ header .navbar {
 .banner-item-01 {
 	padding: 300px 0px;
 	background-image: url(../images/project/wine-cellar-02.jpg);
-
+	filter: brightness(5%);
+	filter: contrast(90%);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -351,7 +352,11 @@ header .navbar {
 	font-size: 62px;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+	font-weight: 600;
+	text-shadow: 1px 1px 1px black;
+
 }
+
 
 .owl-banner .owl-dots .owl-dot {
   border-radius: 3px;
@@ -1180,12 +1185,14 @@ footer .inner-content p a {
 	height: 41px;
 	line-height: 41px;
 	text-align: center;
-	background: #dedede;
-	color: #777777;
+	/* background: #dedede; */
+	background-color: #84240c;
+	/* color: #777777; */
+	color: #fff;
 	border-radius: 50%;
 	transition: all 500ms ease;
   }
-  .footer-social li a:hover{
-	background-color: #84240c;
-	color: #ffffff;
-  }
+  /* .footer-social li a:hover{
+	background-color: #dedede;
+	color: #777777;
+  } */
