@@ -526,6 +526,7 @@ header .navbar {
 	transition: all .3s;
 	position: relative;
 	padding-left: 13px;
+	font-weight: 400;
 }
 
 .best-features ul.featured-list li a:before {
